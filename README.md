@@ -6,8 +6,11 @@ The “Circuit Fault Simulator” aims to take the input values and fault node &
 You need a Bench file where you write a circuit as shown in a example below.
 
 INPUT(a)
+
 INPUT(b)
+
 x = AND(a,b)
+
 OUTPUT(x)
 
 Please watch this video for detailed information -> (https://youtu.be/PbRs36o1nT4)
