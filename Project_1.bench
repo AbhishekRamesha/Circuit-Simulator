@@ -1,0 +1,34 @@
+# Project 1 circuit bench_Abhishek Ramesha
+# What season am I in?
+
+INPUT(a)
+INPUT(b)
+INPUT(c)
+INPUT(d)
+
+a' = NOT(a)
+b' = NOT(b)
+c' = NOT(c)
+d' = NOT(d)
+
+e = AND(b, c)
+f = AND(b', c', d')
+x = OR(e, f)
+
+g = AND(a, d)
+h = AND(a, c)
+y = OR(g, h)
+
+i = AND(a, b)
+j = AND(a', b', c')
+k = AND(a', b', d')
+z = OR(i, j, k)
+
+l = AND(a', b, c')
+m = AND(a', b', c, d)
+w = OR(l, m)
+
+OUTPUT(x)
+OUTPUT(y)
+OUTPUT(z)
+OUTPUT(w)

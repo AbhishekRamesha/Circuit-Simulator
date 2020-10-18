@@ -1,0 +1,18 @@
+# input abcd, output xy
+
+INPUT(a)
+INPUT(b)
+INPUT(c)
+INPUT(d)
+
+x = OR(e, f)
+y = AND(f, g, d)
+
+e = NAND(a, b)
+f = AND(b, c)
+g = NOT(c)
+
+
+
+OUTPUT(x)
+OUTPUT(y)
